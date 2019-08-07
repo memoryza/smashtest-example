@@ -1,0 +1,26 @@
+{
+  "name": "smashtest-example",
+  "version": "0.0.1",
+  "description": "smashtest example",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memoryza/smashtest-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/memoryza/smashtest-example/issues"
+  },
+  "homepage": "https://github.com/memoryza/smashtest-example#readme"
+}

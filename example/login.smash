@@ -1,0 +1,10 @@
+// login sample
+open chrome
+
+    Desktop
+        nav to 'www.weibo.com'
+            wait '5' sec // Weibo have once jump that is time consuming
+                type 'your username' into 'input[id=loginname]'
+                    type 'your password' into 'input[type=password]'
+                        click 'a[class="W_btn_a btn_32px"]'
+                            wait '1' sec // wait result page
